@@ -51,7 +51,7 @@ class PyLibreLinkUp:
     token: str | None
     account_id_hash: str | None
 
-    def __init__(self, email: str, password: str, api_url: APIUrl = APIUrl.US) -> None:
+    def __init__(self, email: str, password: str, api_url: APIUrl = APIUrl.RU) -> None:
         """
         Constructor for the PyLibreLinkUp class.
 
@@ -59,7 +59,7 @@ class PyLibreLinkUp:
         :type email: str
         :param password: The password for the LibreLinkUp account.
         :type password: str
-        :param api_url: The regional API URL to use. Defaults to US.
+        :param api_url: The regional API URL to use. Defaults to RU.
         :type api_url: APIUrl
         :return: None
         """
